@@ -1,0 +1,36 @@
+{
+  "about": {
+    "title": "About",
+    "description": "This example app is part of the <a href=\"https://github.com/coryhouse/react-slingshot\">React-Slingshot\n                starter kit</a>.",
+    "click_to_this_bad_link": "Click this bad link",
+    "to_see_404": " to see the 404 page"
+  },
+  "home": {
+    "header": "React JS Template - Redux Thunk",
+    "get_started": "Get Started",
+    "get_code_at": "Get the code at",
+    "reactjs_template": "ReactJS Template",
+    "review_the": "Review the ",
+    "demo_app": "demo app"
+  },
+  "login": {
+    "email_placeholder_text": "Enter an email",
+    "username_placeholder_text": "Enter a username",
+    "password_placeholder_text": "Enter a password",
+    "email_label": "Email",
+    "username_label": "Username",
+    "password_label": "Password",
+    "remember_me": "Remember me",
+    "forgot_password?": "Forgot password?",
+    "login": "Login",
+    "validate_invalid_email": "Please input a valid email!",
+    "validate_missing_password": "Please input a password to login!"
+  },
+  "notfound": {
+    "header": "404 Page Not Found",
+    "go_back_to_home": "Go back to homepage"
+  },
+  "dashboard": {
+    "header": "Dashboard"
+  }
+}

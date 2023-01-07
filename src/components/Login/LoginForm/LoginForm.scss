@@ -1,0 +1,42 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.loginModule {
+  position: relative;
+  width: 388px;
+  background-color: $white;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 10% auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+
+  img {
+    text-align: center;
+    margin: 40px auto;
+  }
+
+  input {
+    background: white;
+    border-radius: 0;
+    width: 100%;
+    .MuiInput-underline:after {
+      borderbottomcolor: 'green';
+    }
+  }
+
+  .btnLogin {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    padding-right: 10px;
+
+    button {
+      background-color: blue;
+      padding: 8px 40px;
+      text-transform: uppercase;
+      float: right;
+      color: white;
+      font-size: $font-size-base;
+    }
+  }
+}

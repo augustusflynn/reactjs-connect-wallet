@@ -1,0 +1,11 @@
+@import '../../../styles/variables';
+.header-wrapper {
+  .toolBar {
+    background-color: $headerColor;
+    .item-menu {
+      color: white;
+      padding: 0px 10px;
+      font-size: 18px;
+    }
+  }
+}
